@@ -1,6 +1,6 @@
-<h2>In Command-Line-practice-2...</h2>
+<h2>In Command-Line-Practice-2...</h2>
 
-I will connect an already existing local project to a remote server, namely GitHub!
+I will connect an <em>already existing local project</em> to a remote server, namely GitHub!
 
 The steps for the following are:
 <ol>
