@@ -1,6 +1,6 @@
-README.md edited from VSCode, changes pushed from the command line.
+<h2>In Command-Line-practice-2...</h2>
 
-In Command-Line-practice-2, I will connect an already existing local project to a remote server, namely GitHub!
+I will connect an already existing local project to a remote server, namely GitHub!
 
 The steps for the following are:
 <ol>
@@ -12,5 +12,9 @@ The steps for the following are:
 <li>git status, add, commit</li>
 <li>git push -u origin main</li>
 </ol>
+
+This README.md is edited from VSCode, and never via GitHub.
+
+Snapshots are always pushed from the command line.
 
 The first letter of commit messages should be capitalized.
