@@ -4,13 +4,13 @@ I will connect an <em>already existing local project</em> to a remote server, na
 
 The steps are:
 <ol>
-<li>git init</li>
-<li>Create GitHub repo</li>
-<li>git remote add origin...</li>
-<li>git remote -v (to check)</li>
-<li>git branch -M main</li>
-<li>git status, add, commit</li>
-<li>git push -u origin main</li>
+    <li>git init</li>
+    <li>Create GitHub repo</li>
+    <li>git remote add origin...</li>
+    <li>git remote -v (to check)</li>
+    <li>git branch -M main</li>
+    <li>git status, add, commit</li>
+    <li>git push -u origin main</li>
 </ol>
 
 <h4>By the way . . .</h4>
