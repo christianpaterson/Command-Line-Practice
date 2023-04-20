@@ -20,3 +20,5 @@ This README.md is edited from VSCode, and never via GitHub.
 Snapshots are always pushed from the command line.
 
 The first letter of commit messages should be capitalized.
+
+You can view a thorough description of my troubleshooting process as I learned various git commands by visiting: https://christianpaterson.github.io/Command-Line-Practice-2
