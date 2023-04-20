@@ -1,3 +1,4 @@
-header p {
-    color:coral;
+header {
+    color: coral;
+    background-color: aquamarine;
 }
