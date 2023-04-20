@@ -1,48 +1,56 @@
-<h1>Git Practice</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command-Line-Practice-2: Git Practice</title>
+</head>
+<body>
+    <header>
+        <h1>Git Practice</h1>
+        <h2>Here we go...</h2>
+        <p>I will attempt to connect this remote repository (which has a README.md file) with a local repository<br> 
+            (which does not have a README.md file, or has a vastly different README.md file) using git init, git<br> 
+            remote add origin URL, git branch -M main, git push -u origin main</p>
+        <h3>This is the test. The local version <em>does not</em> have the same README.md</h3>
+    </header>
+    <section>
+        <h4>What I had to do was the following:</h4>
+        <ul>
+            <li>git status</li>
+            <li>git pull origin main</li>
+            <li>..."The following untracked files would be overwritten by merge"</li>
+            <li>git add, commit</li>
+            <li>git pull origin main</li>
+            <li>..."fatal: refusing to merge unrelated histories"</li>
+            <li>git pull origin main --allow-unrelated-histories</li>
+            <li>..."Merge conflict in README.md"</li>
+            <li>git push --set-upstream origin main</li>
+            <li>..."Updates were rejected because the tip of your current branch is behind its remote counterpart"</li>
+            <li>git pull origin main --allow-unrelated-histories</li>
+            <li>git add, commit, push --set-upstream origin master</li>
+        </ul>
+        <h4>I will try to do this again more effectively.</h4>
+        <p>I have now made changes remotely, and locally.<br> 
+            What I had to do this time:</p>
+        <ul>
+            <li>git status</li>
+            <li>git add, commit</li>
+            <li>git push --set-upstream origin main</li>
+            <li>..."The remote contains work that you do not have locally"</li>
+            <li>git pull origin main</li>
+            <li>git pull --rebase</li>
+            <li>git push --set-upstream origin main</li>
+        </ul>
+        <h4>The third time I only had to use:</h4>
+        <ul>
+            <li>git status</li>
+            <li>git add, commit</li>
+            <li>git pull origin main</li>
+            <li>git push --set-upstream origin main</li>
+        </ul>
+    </section>
+</body>
+</html>
 
-<h2>Here we go...</h2>
-
-<p>I will attempt to connect this remote repository (which has a README.md file) with a local repository 
-    (which does not have a README.md file, or has a vastly different README.md file) using git init, git 
-    remote add origin URL, git branch -M main, git push -u origin main</p>
-
-<h3>This is the test. The local version <em>does not</em> have the same README.md</h3>
-
-
-<h4>What I had to do was the following:</h4>
-<ul>
-    <li>git status</li>
-    <li>git pull origin main</li>
-    <li>..."The following untracked files would be overwritten by merge"</li>
-    <li>git add, commit</li>
-    <li>git pull origin main</li>
-    <li>..."fatal: refusing to merge unrelated histories"</li>
-    <li>git pull origin main --allow-unrelated-histories</li>
-    <li>..."Merge conflict in README.md"</li>
-    <li>git push --set-upstream origin main</li>
-    <li>..."Updates were rejected because the tip of your current branch is behind its remote counterpart"</li>
-    <li>git pull origin main --allow-unrelated-histories</li>
-    <li>git add, commit, push --set-upstream origin master</li>
-</ul>
-
-<h4>I will try to do this again more effectively.</h4>
-
-<p>I have now made changes remotely, and locally.<br>
-What I had to do this time:</p>
-<ul>
-    <li>git status</li>
-    <li>git add, commit</li>
-    <li>git push --set-upstream origin main</li>
-    <li>..."The remote contains work that you do not have locally"</li>
-    <li>git pull origin main</li>
-    <li>git pull --rebase</li>
-    <li>git push --set-upstream origin main</li>
-</ul>
-
-<h4>The third time I only had to use:</h4>
-<ul>
-    <li>git status</li>
-    <li>git add, commit</li>
-    <li>git pull origin main</li>
-    <li>git push --set-upstream origin main</li>
-</ul>
