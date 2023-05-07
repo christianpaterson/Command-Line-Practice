@@ -1,4 +1,4 @@
-<h2>In Command-Line-Practice-2 . . .</h2>
+<h2>In Command-Line-Practice . . .</h2>
 
 I will connect an <em>already existing local project</em> to a remote server, namely <strong>GitHub</strong>!
 
