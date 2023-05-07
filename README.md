@@ -27,13 +27,9 @@ The steps here are:
     <li>git push</li>
 </ol>
 
-
-
 <h4>By the way . . .</h4>
 
-This README.md is edited from VSCode, and never via GitHub.
-
-Snapshots are always pushed from the command line.
+Snapshots are always edited from VSCode & pushed from the command line.
 
 The first letter of commit messages should be capitalized.
 
