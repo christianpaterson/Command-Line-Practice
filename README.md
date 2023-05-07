@@ -13,6 +13,22 @@ The steps are:
     <li>git push -u origin main</li>
 </ol>
 
+
+I will also download an already existing <em>GitHub project</em> to my local machine.
+
+The steps here are:
+<ol>
+    <li>git clone</li>
+    <li>git status</li>
+    <li>Edit .gitignore if needed</li>
+    <li>git remote -v (to check)</li>
+    <li>git add .</li>
+    <li>git commit - ''</li>
+    <li>git push</li>
+</ol>
+
+
+
 <h4>By the way . . .</h4>
 
 This README.md is edited from VSCode, and never via GitHub.
